@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA5A18E26A76E0E00F339C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A18D26A76E0E00F339C1 /* AppDelegate.swift */; };
+		AAA5A19026A76E0E00F339C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A18F26A76E0E00F339C1 /* SceneDelegate.swift */; };
+		AAA5A19226A76E0E00F339C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A19126A76E0E00F339C1 /* ViewController.swift */; };
+		AAA5A19526A76E0E00F339C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA5A19326A76E0E00F339C1 /* Main.storyboard */; };
+		AAA5A19826A76E0E00F339C1 /* Eunoia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A19626A76E0E00F339C1 /* Eunoia.xcdatamodeld */; };
+		AAA5A19A26A76E1100F339C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA5A19926A76E1100F339C1 /* Assets.xcassets */; };
+		AAA5A19D26A76E1100F339C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA5A19B26A76E1100F339C1 /* LaunchScreen.storyboard */; };
+		AAA5A1A826A76E1100F339C1 /* EunoiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A1A726A76E1100F339C1 /* EunoiaTests.swift */; };
+		AAA5A1B326A76E1100F339C1 /* EunoiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A1B226A76E1100F339C1 /* EunoiaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAA5A1A426A76E1100F339C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA5A18226A76E0E00F339C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA5A18926A76E0E00F339C1;
+			remoteInfo = Eunoia;
+		};
+		AAA5A1AF26A76E1100F339C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAA5A18226A76E0E00F339C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA5A18926A76E0E00F339C1;
+			remoteInfo = Eunoia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAA5A18A26A76E0E00F339C1 /* Eunoia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eunoia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA5A18D26A76E0E00F339C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAA5A18F26A76E0E00F339C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AAA5A19126A76E0E00F339C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAA5A19426A76E0E00F339C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAA5A19726A76E0E00F339C1 /* Eunoia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eunoia.xcdatamodel; sourceTree = "<group>"; };
+		AAA5A19926A76E1100F339C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA5A19C26A76E1100F339C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAA5A19E26A76E1100F339C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA5A1A326A76E1100F339C1 /* EunoiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EunoiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA5A1A726A76E1100F339C1 /* EunoiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EunoiaTests.swift; sourceTree = "<group>"; };
+		AAA5A1A926A76E1100F339C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA5A1AE26A76E1100F339C1 /* EunoiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EunoiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA5A1B226A76E1100F339C1 /* EunoiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EunoiaUITests.swift; sourceTree = "<group>"; };
+		AAA5A1B426A76E1100F339C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA5A18726A76E0E00F339C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5A1A026A76E1100F339C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5A1AB26A76E1100F339C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAA5A18126A76E0E00F339C1 = {
+			isa = PBXGroup;
+			children = (
+				AAA5A18C26A76E0E00F339C1 /* Eunoia */,
+				AAA5A1A626A76E1100F339C1 /* EunoiaTests */,
+				AAA5A1B126A76E1100F339C1 /* EunoiaUITests */,
+				AAA5A18B26A76E0E00F339C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA5A18B26A76E0E00F339C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5A18A26A76E0E00F339C1 /* Eunoia.app */,
+				AAA5A1A326A76E1100F339C1 /* EunoiaTests.xctest */,
+				AAA5A1AE26A76E1100F339C1 /* EunoiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA5A18C26A76E0E00F339C1 /* Eunoia */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5A18D26A76E0E00F339C1 /* AppDelegate.swift */,
+				AAA5A18F26A76E0E00F339C1 /* SceneDelegate.swift */,
+				AAA5A19126A76E0E00F339C1 /* ViewController.swift */,
+				AAA5A19326A76E0E00F339C1 /* Main.storyboard */,
+				AAA5A19926A76E1100F339C1 /* Assets.xcassets */,
+				AAA5A19B26A76E1100F339C1 /* LaunchScreen.storyboard */,
+				AAA5A19E26A76E1100F339C1 /* Info.plist */,
+				AAA5A19626A76E0E00F339C1 /* Eunoia.xcdatamodeld */,
+			);
+			path = Eunoia;
+			sourceTree = "<group>";
+		};
+		AAA5A1A626A76E1100F339C1 /* EunoiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5A1A726A76E1100F339C1 /* EunoiaTests.swift */,
+				AAA5A1A926A76E1100F339C1 /* Info.plist */,
+			);
+			path = EunoiaTests;
+			sourceTree = "<group>";
+		};
+		AAA5A1B126A76E1100F339C1 /* EunoiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAA5A1B226A76E1100F339C1 /* EunoiaUITests.swift */,
+				AAA5A1B426A76E1100F339C1 /* Info.plist */,
+			);
+			path = EunoiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA5A18926A76E0E00F339C1 /* Eunoia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA5A1B726A76E1100F339C1 /* Build configuration list for PBXNativeTarget "Eunoia" */;
+			buildPhases = (
+				AAA5A18626A76E0E00F339C1 /* Sources */,
+				AAA5A18726A76E0E00F339C1 /* Frameworks */,
+				AAA5A18826A76E0E00F339C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eunoia;
+			productName = Eunoia;
+			productReference = AAA5A18A26A76E0E00F339C1 /* Eunoia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAA5A1A226A76E1100F339C1 /* EunoiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA5A1BA26A76E1100F339C1 /* Build configuration list for PBXNativeTarget "EunoiaTests" */;
+			buildPhases = (
+				AAA5A19F26A76E1100F339C1 /* Sources */,
+				AAA5A1A026A76E1100F339C1 /* Frameworks */,
+				AAA5A1A126A76E1100F339C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA5A1A526A76E1100F339C1 /* PBXTargetDependency */,
+			);
+			name = EunoiaTests;
+			productName = EunoiaTests;
+			productReference = AAA5A1A326A76E1100F339C1 /* EunoiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAA5A1AD26A76E1100F339C1 /* EunoiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA5A1BD26A76E1100F339C1 /* Build configuration list for PBXNativeTarget "EunoiaUITests" */;
+			buildPhases = (
+				AAA5A1AA26A76E1100F339C1 /* Sources */,
+				AAA5A1AB26A76E1100F339C1 /* Frameworks */,
+				AAA5A1AC26A76E1100F339C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAA5A1B026A76E1100F339C1 /* PBXTargetDependency */,
+			);
+			name = EunoiaUITests;
+			productName = EunoiaUITests;
+			productReference = AAA5A1AE26A76E1100F339C1 /* EunoiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA5A18226A76E0E00F339C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AAA5A18926A76E0E00F339C1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AAA5A1A226A76E1100F339C1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AAA5A18926A76E0E00F339C1;
+					};
+					AAA5A1AD26A76E1100F339C1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AAA5A18926A76E0E00F339C1;
+					};
+				};
+			};
+			buildConfigurationList = AAA5A18526A76E0E00F339C1 /* Build configuration list for PBXProject "Eunoia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAA5A18126A76E0E00F339C1;
+			productRefGroup = AAA5A18B26A76E0E00F339C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA5A18926A76E0E00F339C1 /* Eunoia */,
+				AAA5A1A226A76E1100F339C1 /* EunoiaTests */,
+				AAA5A1AD26A76E1100F339C1 /* EunoiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA5A18826A76E0E00F339C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA5A19D26A76E1100F339C1 /* LaunchScreen.storyboard in Resources */,
+				AAA5A19A26A76E1100F339C1 /* Assets.xcassets in Resources */,
+				AAA5A19526A76E0E00F339C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5A1A126A76E1100F339C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5A1AC26A76E1100F339C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA5A18626A76E0E00F339C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA5A19826A76E0E00F339C1 /* Eunoia.xcdatamodeld in Sources */,
+				AAA5A19226A76E0E00F339C1 /* ViewController.swift in Sources */,
+				AAA5A18E26A76E0E00F339C1 /* AppDelegate.swift in Sources */,
+				AAA5A19026A76E0E00F339C1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5A19F26A76E1100F339C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA5A1A826A76E1100F339C1 /* EunoiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA5A1AA26A76E1100F339C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA5A1B326A76E1100F339C1 /* EunoiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAA5A1A526A76E1100F339C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA5A18926A76E0E00F339C1 /* Eunoia */;
+			targetProxy = AAA5A1A426A76E1100F339C1 /* PBXContainerItemProxy */;
+		};
+		AAA5A1B026A76E1100F339C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAA5A18926A76E0E00F339C1 /* Eunoia */;
+			targetProxy = AAA5A1AF26A76E1100F339C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAA5A19326A76E0E00F339C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA5A19426A76E0E00F339C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAA5A19B26A76E1100F339C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA5A19C26A76E1100F339C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAA5A1B526A76E1100F339C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAA5A1B626A76E1100F339C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAA5A1B826A76E1100F339C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z6QFF8J72;
+				INFOPLIST_FILE = Eunoia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk-2021.Eunoia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAA5A1B926A76E1100F339C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z6QFF8J72;
+				INFOPLIST_FILE = Eunoia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk-2021.Eunoia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAA5A1BB26A76E1100F339C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z6QFF8J72;
+				INFOPLIST_FILE = EunoiaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk-2021.EunoiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eunoia.app/Eunoia";
+			};
+			name = Debug;
+		};
+		AAA5A1BC26A76E1100F339C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z6QFF8J72;
+				INFOPLIST_FILE = EunoiaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk-2021.EunoiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eunoia.app/Eunoia";
+			};
+			name = Release;
+		};
+		AAA5A1BE26A76E1100F339C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z6QFF8J72;
+				INFOPLIST_FILE = EunoiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk-2021.EunoiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eunoia;
+			};
+			name = Debug;
+		};
+		AAA5A1BF26A76E1100F339C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Z6QFF8J72;
+				INFOPLIST_FILE = EunoiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk-2021.EunoiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eunoia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA5A18526A76E0E00F339C1 /* Build configuration list for PBXProject "Eunoia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA5A1B526A76E1100F339C1 /* Debug */,
+				AAA5A1B626A76E1100F339C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA5A1B726A76E1100F339C1 /* Build configuration list for PBXNativeTarget "Eunoia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA5A1B826A76E1100F339C1 /* Debug */,
+				AAA5A1B926A76E1100F339C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA5A1BA26A76E1100F339C1 /* Build configuration list for PBXNativeTarget "EunoiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA5A1BB26A76E1100F339C1 /* Debug */,
+				AAA5A1BC26A76E1100F339C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA5A1BD26A76E1100F339C1 /* Build configuration list for PBXNativeTarget "EunoiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA5A1BE26A76E1100F339C1 /* Debug */,
+				AAA5A1BF26A76E1100F339C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAA5A19626A76E0E00F339C1 /* Eunoia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAA5A19726A76E0E00F339C1 /* Eunoia.xcdatamodel */,
+			);
+			currentVersion = AAA5A19726A76E0E00F339C1 /* Eunoia.xcdatamodel */;
+			path = Eunoia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAA5A18226A76E0E00F339C1 /* Project object */;
+}

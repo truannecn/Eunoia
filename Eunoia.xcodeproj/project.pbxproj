@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1605B4626AA178F00F21ACF /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1605B4526AA178F00F21ACF /* TimerViewController.swift */; };
 		AAA5A18E26A76E0E00F339C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A18D26A76E0E00F339C1 /* AppDelegate.swift */; };
 		AAA5A19026A76E0E00F339C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A18F26A76E0E00F339C1 /* SceneDelegate.swift */; };
 		AAA5A19226A76E0E00F339C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A19126A76E0E00F339C1 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1605B4526AA178F00F21ACF /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		AAA5A18A26A76E0E00F339C1 /* Eunoia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eunoia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA5A18D26A76E0E00F339C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA5A18F26A76E0E00F339C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				AAA5A19B26A76E1100F339C1 /* LaunchScreen.storyboard */,
 				AAA5A19E26A76E1100F339C1 /* Info.plist */,
 				AAA5A19626A76E0E00F339C1 /* Eunoia.xcdatamodeld */,
+				A1605B4526AA178F00F21ACF /* TimerViewController.swift */,
 			);
 			path = Eunoia;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1605B4626AA178F00F21ACF /* TimerViewController.swift in Sources */,
 				AAA5A19826A76E0E00F339C1 /* Eunoia.xcdatamodeld in Sources */,
 				AAA5A19226A76E0E00F339C1 /* ViewController.swift in Sources */,
 				AAA5A18E26A76E0E00F339C1 /* AppDelegate.swift in Sources */,

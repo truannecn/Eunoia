@@ -424,13 +424,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="always know you are beautiful just the way you are!! " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvC-MI-bJG">
-                                <rect key="frame" x="78" y="457" width="275" height="273"/>
+                                <rect key="frame" x="78" y="365" width="275" height="273"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.8776025932" green="1" blue="0.82791390119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="61"/>
                                 <color key="textColor" red="0.10478320100000001" green="0.11939709599999999" blue="0.09885051551" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dM-Fn-lTi">
+                                <rect key="frame" x="-360" y="199" width="1134" height="1080"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="go back"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Rej-06-GWt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

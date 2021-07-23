@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenBg" translatesAutoresizingMaskIntoConstraints="NO" id="51r-qL-chS">
-                                <rect key="frame" x="-91" y="-516" width="2303" height="1424"/>
+                                <rect key="frame" x="-86" y="-516" width="2303" height="1424"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Landing Page" translatesAutoresizingMaskIntoConstraints="NO" id="XIS-MD-ms9">
@@ -25,11 +25,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="credits" translatesAutoresizingMaskIntoConstraints="NO" id="g62-fQ-Qba">
-                                <rect key="frame" x="-16" y="615" width="446" height="409"/>
+                                <rect key="frame" x="-16" y="563" width="446" height="409"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ex6-3A-Lha">
-                                <rect key="frame" x="62" y="490" width="291" height="281"/>
+                                <rect key="frame" x="62" y="469" width="291" height="281"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="start" image="start button">
                                     <color key="titleColor" systemColor="systemBackgroundColor"/>
@@ -39,7 +39,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="sdx-1E-gkz">
-                                <rect key="frame" x="53" y="334" width="309" height="172"/>
+                                <rect key="frame" x="57" y="318" width="300" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -77,13 +77,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="journal header"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zuJ-EY-RcN">
-                                <rect key="frame" x="94" y="350" width="227" height="214"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="timer header"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhu-1C-pTC">
-                                <rect key="frame" x="94" y="461" width="227" height="214"/>
+                                <rect key="frame" x="94" y="528" width="227" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="timer header"/>
                             </button>
@@ -93,6 +88,14 @@
                                 <state key="normal" title="Button" image="go back"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="ibw-1n-lpd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zuJ-EY-RcN">
+                                <rect key="frame" x="94" y="383" width="227" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="timer header"/>
+                                <connections>
+                                    <segue destination="c4P-SI-g02" kind="show" id="dpp-9V-xLh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -110,63 +113,63 @@
             <objects>
                 <viewController id="c4P-SI-g02" customClass="TimerViewController" customModule="Eunoia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7DZ-o1-pNE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="timer header" translatesAutoresizingMaskIntoConstraints="NO" id="URA-Ev-BTA">
-                                <rect key="frame" x="-7" y="0.0" width="428" height="308"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenBg" translatesAutoresizingMaskIntoConstraints="NO" id="D1G-wy-2QD">
+                                <rect key="frame" x="-763" y="-349" width="2303" height="1424"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7i6-rB-C0C">
-                                <rect key="frame" x="268" y="413" width="30" height="30"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="timer header" translatesAutoresizingMaskIntoConstraints="NO" id="URA-Ev-BTA">
+                                <rect key="frame" x="-7" y="0.0" width="428" height="309"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="End"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AyC-tI-Hon">
+                                <rect key="frame" x="119" y="401" width="176" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pause" image="timerPause"/>
                                 <connections>
-                                    <action selector="endButton:" destination="c4P-SI-g02" eventType="touchUpInside" id="LGy-Bu-Uup"/>
+                                    <action selector="pauseBTN:" destination="c4P-SI-g02" eventType="touchUpInside" id="gmi-Hx-LHO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AyC-tI-Hon">
-                                <rect key="frame" x="105" y="479" width="42" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Klv-eK-74a">
+                                <rect key="frame" x="108" y="676" width="198" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pause"/>
+                                <state key="normal" title="Go back!" image="timerBack"/>
                                 <connections>
-                                    <action selector="pauseButton:" destination="c4P-SI-g02" eventType="touchUpInside" id="Tv5-6b-4xi"/>
+                                    <segue destination="iZ9-Nr-AA4" kind="show" id="2nM-LT-1tm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ti-Pc-gkv">
-                                <rect key="frame" x="258" y="479" width="50" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFm-He-z8x">
+                                <rect key="frame" x="114" y="295" width="187" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Restart"/>
+                                <state key="normal" title="Start" image="timerStart"/>
                                 <connections>
-                                    <action selector="restartButton:" destination="c4P-SI-g02" eventType="touchUpInside" id="tCM-Oq-tTp"/>
+                                    <action selector="startBTN:" destination="c4P-SI-g02" eventType="touchUpInside" id="vGx-wj-bpY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Klv-eK-74a">
-                                <rect key="frame" x="176" y="634" width="62" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhS-yR-IcG">
+                                <rect key="frame" x="167" y="243" width="82" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Go back!"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhS-yR-IcG">
-                                <rect key="frame" x="186" y="333" width="11" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFm-He-z8x">
-                                <rect key="frame" x="105" y="421" width="34" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ti-Pc-gkv">
+                                <rect key="frame" x="115" y="501" width="184" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Start"/>
+                                <state key="normal" title="Restart" image="timerEnd"/>
                                 <connections>
-                                    <action selector="startButton:" destination="c4P-SI-g02" eventType="touchUpInside" id="g27-uJ-gWI"/>
+                                    <action selector="restartBTN:" destination="c4P-SI-g02" eventType="touchUpInside" id="fHo-mP-z02"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XJt-nX-jmF"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <navigationItem key="navigationItem" id="BUj-BE-xwe"/>
                     <connections>
-                        <outlet property="timerViewLabel" destination="7DZ-o1-pNE" id="D23-Xu-bB9"/>
+                        <outlet property="timeLabel" destination="RhS-yR-IcG" id="4p2-Uh-84l"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Oa-pH-etw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -174,6 +177,10 @@
             <point key="canvasLocation" x="1550.7246376811595" y="87.723214285714278"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="dpp-9V-xLh"/>
+        <segue reference="2nM-LT-1tm"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Landing Page" width="1080" height="1080"/>
         <image name="Logo Lite Green" width="1080" height="1080"/>
@@ -185,6 +192,10 @@
         <image name="optionsTitle" width="1080" height="1080"/>
         <image name="start button" width="1080" height="1080"/>
         <image name="timer header" width="1080" height="1080"/>
+        <image name="timerBack" width="1080" height="1080"/>
+        <image name="timerEnd" width="1080" height="1080"/>
+        <image name="timerPause" width="1080" height="1080"/>
+        <image name="timerStart" width="1080" height="1080"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -6,41 +6,39 @@
 //
 
 import UIKit
+import Foundation
 
 class TimerViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-    
     var ourTimer = Timer()
-    var timeDisplayed = 0
+    var timerDisplayed = 0
     
-    @IBOutlet var timerViewLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
     
-    @IBAction func startButton(_ sender: UIButton) {
+    @IBAction func startBTN(_ sender: Any) {
         ourTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(Action), userInfo: nil, repeats: true)
     }
     
-    @IBAction func endButton(_ sender: UIButton) {
-    }
-    
-    @IBAction func pauseButton(_ sender: UIButton) {
+    @IBAction func pauseBTN(_ sender: Any) {
         ourTimer.invalidate()
     }
     
-    @IBAction func restartButton(_ sender: UIButton) {
+    @IBAction func restartBTN(_ sender: Any) {
         ourTimer.invalidate()
-        timeDisplayed = 0
-        timerViewLabel.text = "0"
+        timerDisplayed = 0
+        timeLabel.text = "0"
     }
-    
-
     
     @objc func Action(){
-        timeDisplayed += 1
-        timerViewLabel.text = String(timeDisplayed)
+        timerDisplayed += 1
+        timeLabel.text = String(timerDisplayed)
+    }
+    
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
     }
     
     

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A1605B4626AA178F00F21ACF /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1605B4526AA178F00F21ACF /* TimerViewController.swift */; };
+		AA42B5ED26AB152E00ADC6DA /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42B5EC26AB152E00ADC6DA /* NoteViewController.swift */; };
+		AA42B5EF26AB155400ADC6DA /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42B5EE26AB155400ADC6DA /* EntryViewController.swift */; };
+		AA42B5F126AB15B600ADC6DA /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42B5F026AB15B600ADC6DA /* JournalViewController.swift */; };
 		AAA5A18E26A76E0E00F339C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A18D26A76E0E00F339C1 /* AppDelegate.swift */; };
 		AAA5A19026A76E0E00F339C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A18F26A76E0E00F339C1 /* SceneDelegate.swift */; };
 		AAA5A19226A76E0E00F339C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA5A19126A76E0E00F339C1 /* ViewController.swift */; };
@@ -38,6 +41,9 @@
 
 /* Begin PBXFileReference section */
 		A1605B4526AA178F00F21ACF /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		AA42B5EC26AB152E00ADC6DA /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		AA42B5EE26AB155400ADC6DA /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		AA42B5F026AB15B600ADC6DA /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		AAA5A18A26A76E0E00F339C1 /* Eunoia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eunoia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA5A18D26A76E0E00F339C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA5A18F26A76E0E00F339C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +118,9 @@
 				AAA5A19E26A76E1100F339C1 /* Info.plist */,
 				AAA5A19626A76E0E00F339C1 /* Eunoia.xcdatamodeld */,
 				A1605B4526AA178F00F21ACF /* TimerViewController.swift */,
+				AA42B5EC26AB152E00ADC6DA /* NoteViewController.swift */,
+				AA42B5EE26AB155400ADC6DA /* EntryViewController.swift */,
+				AA42B5F026AB15B600ADC6DA /* JournalViewController.swift */,
 			);
 			path = Eunoia;
 			sourceTree = "<group>";
@@ -264,10 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA42B5F126AB15B600ADC6DA /* JournalViewController.swift in Sources */,
 				A1605B4626AA178F00F21ACF /* TimerViewController.swift in Sources */,
 				AAA5A19826A76E0E00F339C1 /* Eunoia.xcdatamodeld in Sources */,
 				AAA5A19226A76E0E00F339C1 /* ViewController.swift in Sources */,
+				AA42B5EF26AB155400ADC6DA /* EntryViewController.swift in Sources */,
 				AAA5A18E26A76E0E00F339C1 /* AppDelegate.swift in Sources */,
+				AA42B5ED26AB152E00ADC6DA /* NoteViewController.swift in Sources */,
 				AAA5A19026A76E0E00F339C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

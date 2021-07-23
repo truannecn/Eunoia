@@ -170,6 +170,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Notes" id="A7j-SA-nyP">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="cli-65-cbc">
+                            <color key="tintColor" systemColor="labelColor"/>
+                            <connections>
+                                <segue destination="iZ9-Nr-AA4" kind="show" id="Xn6-fu-aWq"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="y6L-Mn-Lzz">
                             <inset key="imageInsets" minX="0.0" minY="4" maxX="0.0" maxY="0.0"/>
                             <color key="tintColor" systemColor="labelColor"/>
@@ -432,9 +438,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dM-Fn-lTi">
-                                <rect key="frame" x="-360" y="199" width="1134" height="1080"/>
+                                <rect key="frame" x="105" y="670" width="204" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="go back"/>
+                                <connections>
+                                    <segue destination="iZ9-Nr-AA4" kind="show" id="JhU-FQ-LdO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Rej-06-GWt"/>
@@ -467,8 +476,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="dpp-9V-xLh"/>
-        <segue reference="2nM-LT-1tm"/>
+        <segue reference="OV5-3E-lhL"/>
+        <segue reference="Xn6-fu-aWq"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Landing Page" width="1080" height="1080"/>
